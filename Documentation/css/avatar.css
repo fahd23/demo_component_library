@@ -1,0 +1,18 @@
+@import url(../../style.css);
+@import url(../../Components/avatar.css);
+
+:root {
+  --gu-green-color: rgb(82, 141, 82);
+}
+
+.avatar-container {
+  margin: 1rem auto;
+  background: var(--secondary-color);
+  box-shadow: 2px 1px 10px var(--gu-green-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 20px;
+  border-radius: 10px;
+}

@@ -8,7 +8,7 @@
 }
 :root {
   --primary-color: #f1f7ed;
-  --secondary-color: #dce9d3;
+  --secondary-color: #d5e6c9;
   --text-color: #222222;
   --green-color: #f1f7ed;
   --blue-color: #4363ad;
@@ -31,6 +31,10 @@ button {
 iframe {
   margin: 2rem auto;
 }
+hr {
+  border-top: 2px solid var(--secondary-color);
+  border-bottom: 0;
+}
 /* Utilities */
 .h1 {
   font-weight: 600;
@@ -42,10 +46,15 @@ iframe {
   font-size: 1.4rem;
   margin: 0.5rem auto;
 }
-.para {
+.p-s {
   margin: 1rem auto;
   font-weight: 500;
   font-size: 1.2rem;
+}
+.p-md {
+  margin: 1rem auto;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 
 .navbar {
@@ -129,8 +138,11 @@ iframe {
   .heading1 {
     font-size: 1.7rem;
   }
-  .para {
+  .p-s {
     font-size: 1.1rem;
+  }
+  .p-md {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -140,7 +152,10 @@ iframe {
   .h2 {
     font-size: 1.2rem;
   }
-  .para {
+  .p-s {
     font-size: 1rem;
+  }
+  .p-md {
+    font-size: 1.1rem;
   }
 }
