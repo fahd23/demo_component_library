@@ -1,0 +1,70 @@
+@import url(../avatar/avatar.css);
+.gu-badge {
+  position: relative;
+  display: inline-block;
+  margin: 0.5rem;
+}
+.online {
+  width: 15px;
+  height: 15px;
+  background: green;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  border: 2px solid white;
+}
+.dnd {
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  border: 2px solid white;
+}
+.offline {
+  width: 15px;
+  height: 15px;
+  background: grey;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  border: 2px solid white;
+}
+.gu-icon {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+.notify-num {
+  position: absolute;
+  right: -13px;
+  top: -7px;
+  background: #55dd33;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: bold;
+}
+.avatar-notify {
+  position: absolute;
+  right: -5px;
+  bottom: 2px;
+  background: red;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: bold;
+}

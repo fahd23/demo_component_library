@@ -1,0 +1,76 @@
+.btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 0;
+  margin: 0.2rem;
+}
+.primary {
+  background: blueviolet;
+  color: white;
+}
+.secondary {
+  background: #2b59ec;
+  color: white;
+}
+.danger {
+  background: #dc2626;
+  color: white;
+}
+.warning {
+  background: #facc15;
+  color: white;
+}
+.success {
+  background: #20aa20;
+  color: white;
+}
+.default {
+  background: #262f44;
+  color: white;
+}
+.link-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: 0;
+  background: #262f44;
+  color: white;
+  text-decoration: none;
+  margin: 0.2rem;
+}
+.otld-primary {
+  background: transparent;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+}
+.otld-secondary {
+  background: transparent;
+  color: #2b59ec;
+  border: 2px solid #2b59ec;
+}
+.otld-danger {
+  background: transparent;
+  color: #dc2626;
+  border: 2px solid #dc2626;
+}
+.otld-warning {
+  background: transparent;
+  color: #facc15;
+  border: 2px solid #facc15;
+}
+.otld-success {
+  background: transparent;
+  color: #20aa20;
+  border: 2px solid #20aa20;
+}
+.otld-default {
+  background: transparent;
+  color: #262f44;
+  border: 2px solid #262f44;
+}
+.btn-icon {
+  padding: 13px 22px;
+  display: inline-flex;
+  gap: 10px;
+}
