@@ -1,7 +1,7 @@
 .btn {
   padding: 12px 30px;
   font-size: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0;
   margin: 0.2rem;
 }
@@ -32,39 +32,39 @@
 .link-btn {
   display: inline-block;
   padding: 12px 25px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0;
   background: #262f44;
   color: white;
   text-decoration: none;
   margin: 0.2rem;
 }
-.otld-primary {
+.outlined-primary {
   background: transparent;
   color: blueviolet;
   border: 2px solid blueviolet;
 }
-.otld-secondary {
+.outlined-secondary {
   background: transparent;
   color: #2b59ec;
   border: 2px solid #2b59ec;
 }
-.otld-danger {
+.outlined-danger {
   background: transparent;
   color: #dc2626;
   border: 2px solid #dc2626;
 }
-.otld-warning {
+.outlined-warning {
   background: transparent;
   color: #facc15;
   border: 2px solid #facc15;
 }
-.otld-success {
+.outlined-success {
   background: transparent;
   color: #20aa20;
   border: 2px solid #20aa20;
 }
-.otld-default {
+.outlined-default {
   background: transparent;
   color: #262f44;
   border: 2px solid #262f44;
@@ -73,4 +73,18 @@
   padding: 13px 22px;
   display: inline-flex;
   gap: 10px;
+}
+.btn-floating {
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  background: #38c95c;
+  border: 3px solid rgb(250, 250, 250);
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 1rem 0.1rem #c9d2ff;
+  color: white;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  transition: transform 0.4s;
 }

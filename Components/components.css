@@ -1,1 +1,5 @@
 @import url(avatar.css);
+
+html {
+  scroll-behavior: smooth;
+}
