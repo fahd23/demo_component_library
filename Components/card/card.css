@@ -1,0 +1,142 @@
+.card {
+  background: #ffffff;
+  display: flex;
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+.card-with-shadow {
+  box-shadow: 1px 2px 10px #c9c9c9;
+}
+.subtitle {
+  color: #5e5e5e;
+}
+.horizontal-card-container {
+  width: 30rem;
+}
+.vertical-card-container {
+  flex-direction: column;
+  width: 15rem;
+}
+
+.horizontal-card-img {
+  width: 11rem;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.vertical-card-img {
+  position: relative;
+  width: 15rem;
+  height: 16rem;
+  border-radius: 10px 10px 0 0;
+}
+.card-badge {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background: rgb(223, 132, 28);
+  color: whitesmoke;
+  padding: 5px;
+}
+.card-img {
+  position: relative;
+}
+.card-info {
+  margin: 0.5rem 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: auto;
+  justify-content: center;
+  gap: 15px;
+}
+.btn-link {
+  background: transparent;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.call-to-action {
+  margin-top: 1rem;
+  background-color: rgb(96, 145, 0);
+  color: #fff;
+}
+.call-to-action:hover {
+  background-color: rgb(113, 153, 32);
+}
+.not-call-to-action {
+  margin-top: 1rem;
+}
+.not-call-to-action:hover {
+  background-color: rgb(190, 190, 190);
+}
+.vertical-btn {
+  width: 100%;
+  /* background-color: ; */
+}
+.actual-price {
+  display: inline;
+  margin-right: 0.2rem;
+  color: gray;
+  text-decoration: line-through;
+}
+.disc-price {
+  margin-right: 0.2rem;
+  display: inline;
+}
+.offer {
+  margin-right: 0.2rem;
+  display: inline;
+  color: green;
+}
+.dismiss-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #ff0707;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #ff0707;
+}
+.card-head-info {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  bottom: 18px;
+  left: 10px;
+}
+.card-head-info .subtitle {
+  color: rgb(240, 240, 240);
+}
+/* text-only-card */
+.text-only-card {
+  flex-direction: column;
+  width: 20rem;
+  padding: 1.5rem;
+}
+.card-dismiss-btn {
+  background: transparent;
+  margin-left: auto;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+}
